@@ -1,3 +1,17 @@
+## DESAFIO #4 DO BOOTCAMP DA @ROCKETSEAT
+
+**Desafio:** Criar um clone de uma página do Facebook.
+
+**Objetivo:** Demonstrar a configuração e uso na prática do ReactJS e todo seu ambiente.
+
+Este projeto foi publicado via Netlify, que viabiliza a visualização e também o deploy automático do código visualizado aqui no GitHub.
+
+Para acessar o resultado do desafio, use este link: 
+
+https://gus-coelho-bootcamp-desafio04.netlify.com/
+
+================================================
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
