@@ -3,7 +3,7 @@ import React from "react";
 function PostHeader({ author, date }) {
   return (
     <div className="post-header">
-      <img className="avatar" src={author.avatar} />
+      <img className="avatar" src={author.avatar} alt="avatar" />
       <div className="details">
         <span>{author.name}</span>
         <span>{date}</span>
@@ -18,7 +18,7 @@ function PostComments({ comments }) {
       <div className="divider" />
       {comments.map(comment => (
         <div key={comment.id} className="comment">
-          <img className="avatar" src={comment.author.avatar} />
+          <img className="avatar" src={comment.author.avatar} alt="avatar" />
           <p>
             <span>{comment.author.name}</span>
             {comment.content}
